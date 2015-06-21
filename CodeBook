@@ -23,6 +23,6 @@ The data set is appropriately labelled with descriptive activity names. The merg
 to a generated "Cleaned_Data" folder under the name of "merged_cleaned_data.txt".
 
 5. step:
-A 2nd independent tidy data set is created with the average of each variable for each activity and each subject. It is and written out
+A 2nd independent tidy data set is created with the average of each variable for each activity and each subject. It is written out
 to a generated "Cleaned_Data" folder under the name of "data_averages.txt". 
 
