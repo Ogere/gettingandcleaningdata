@@ -1,0 +1,28 @@
+@ Getting and cleaning data course project work code book
+
+This file describes all the variables, the data, and transformations what I have done to clean up the given raw data.
+
+Source of the original data:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+Data set provided for the project:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+1. step:
+It reads X_train.txt, X_test.txt, y_train.txt, y_test.txt, subject_train.txt and subject_test.txt data and merges them 
+to three data sets.
+
+2. step:
+It extracts only the measurements on the mean and standard deviation for each measurement. Using features.txt, the proper are
+selected and furthermore, the variable names are cleaned to make them easier to read.
+
+3. step:
+Descriptive activity names are used to name the activities in the data set. Using activity_labels.txt, the activities are named properly.
+
+4. step:
+The data set is appropriately labelled with descriptive activity names. The merged three data sets are combined and written out
+to a generated "Cleaned_Data" folder under the name of "merged_cleaned_data.txt".
+
+5. step:
+A 2nd independent tidy data set is created with the average of each variable for each activity and each subject. It is and written out
+to a generated "Cleaned_Data" folder under the name of "data_averages.txt". 
+
